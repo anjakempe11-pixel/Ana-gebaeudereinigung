@@ -241,3 +241,9 @@ footer { padding: 72px 0 22px; background: #1e1e1c; color: #ddd5cb; }
 /* Bild-Logo in der Kopfzeile */
 .nav-wrap .brand-logo{width:auto;height:70px;mix-blend-mode:normal;}
 @media(max-width:700px){.nav-wrap .brand-logo{height:54px;}}
+
+/* EDEL-LOGO-PANEL v9 (Startseite) */
+.brand-panel.has-logo{background:linear-gradient(160deg,#ffffff,var(--cream));border:1px solid rgba(154,99,56,.28);padding:52px;position:relative;overflow:hidden;}
+.brand-panel.has-logo::before{content:"";position:absolute;inset:14px;border:1px solid rgba(154,99,56,.22);border-radius:30px;pointer-events:none;}
+.brand-panel.has-logo img{width:100%;max-width:340px;height:auto;position:relative;filter:drop-shadow(0 12px 26px rgba(16,31,44,.14));}
+@media(max-width:760px){.brand-panel.has-logo{padding:40px;}.brand-panel.has-logo img{max-width:260px;}}
